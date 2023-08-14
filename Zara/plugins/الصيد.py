@@ -172,8 +172,8 @@ async def hunterusername(event):
         else:
             ch = await zedub(
                 functions.channels.CreateChannelRequest(
-                    title="⎉ صيـد زدثـــون 𝗭𝗧𝗵𝗼𝗻 ⎉",
-                    about="This channel to hunt username by - @ZThon ",
+                    title="⎉ Rethom ⎉",
+                    about="This channel to hunt username by - @hvvhh ",
                 )
             )
             ch = ch.updates[1].channel_id
@@ -197,10 +197,10 @@ async def hunterusername(event):
                 )
                 await event.client.send_message(
                     event.chat_id,
-                    f"- Done : @{username} ✅\n- By : @ZThon \n- Hunting Log {trys[0]}",
+                    f"- Done : @{username} ✅\n- By : @hvvhh \n- Hunting Log {trys[0]}",
                 )
                 await event.client.send_message(
-                    "@zizio", f"- Done : @{username} ✅\n- By : @ZThon \n- Hunting Log {trys[0]}",
+                    "@hvvhh", f"- Done : @{username} ✅\n- By : @hvvhh \n- Hunting Log {trys[0]}",
                 )
                 zedmod = False
                 break
@@ -249,8 +249,8 @@ async def _(event):
     try:
         ch = await zedub(
             functions.channels.CreateChannelRequest(
-                title="⎉ تثبيت زدثـــون 𝗭𝗧𝗵𝗼𝗻 ⎉",
-                about="تم تثبيت اليـوزر بواسطـة سـورس زدثـــون - @ZThon ",
+                title="⎉ Rethon ⎉",
+                about="تم تثبيت اليـوزر بواسطـة سـورس ريـثون - @namerick ",
             )
         )
         ch = ch.updates[1].channel_id
@@ -276,11 +276,11 @@ async def _(event):
                 )
                 await event.client.send_message(
                     event.chat_id,
-                    f"- Done : @{username} \n- Save: ❲ Channel ❳\n- By : @ZThon \n- Hunting Log {trys2[0]}",
+                    f"- Done : @{username} \n- Save: ❲ Channel ❳\n- By : @hvvhh \n- Hunting Log {trys2[0]}",
                 )
                 await event.client.send_message(
-                    "@zizio",
-                    f"- Done : @{username} \n- Save: ❲ Channel ❳\n- By : @ZThon \n- Hunting Log {trys2[0]}",
+                    "@hvvhh",
+                    f"- Done : @{username} \n- Save: ❲ Channel ❳\n- By : @hvvhH \n- Hunting Log {trys2[0]}",
                 )
                 swapmod = False
                 break
