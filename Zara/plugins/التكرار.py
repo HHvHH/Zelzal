@@ -310,7 +310,7 @@ async def tmeme(event):
 
 @zedub.zed_cmd(
     pattern=f"{SPAM} ([\s\S]*)",
-    command=("مكرر", plugin_category),
+    command=("مجفص", plugin_category),
     info={
         "header": "لـ تكـرار نص لوقت معين وعدد معين من المـرات",
         "الاستخـدام": [
