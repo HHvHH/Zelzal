@@ -103,7 +103,7 @@ def gen_user(choice):
 
 
 ZelzalChecler_cmd = (
-    "𓆩 [𝗦𝗼𝘂𝗿𝗰𝗲 𝗭𝗧𝗵𝗼𝗻 - اوامـر الصيـد والتشيكـر](t.me/ZThon) 𓆪\n\n"
+    "𓆩 [Hayder ,](t.me/HvvHH) 𓆪\n\n"
     "**✾╎قـائمـة اوامـر تشيكـر صيـد معـرفات تيليجـرام :** \n\n"
     "`.النوع`\n"
     "**⪼ لـ عـرض الانـوع التي يمكـن صيدهـا مع الامثـله**\n"
@@ -128,12 +128,12 @@ ZelzalChecler_cmd = (
     "**⪼** تحلى بالصبر وكرر محاولات الصيد حتى تصيد يوزر\n"
     "**⪼** كل نوع من اليوزرات يختلف عن الاخر من حيث نسبة الصيد\n"
     "**⪼ التثبيت هو تثبيت يوزر محدد حتى ماينسرق منك عندما يصير متاح**\n\n"
-    "**- انضـم للقنـاة ~ @RRRDB**\n"
-    "**⪼ لـ رؤيـة بعـض اليـوزرات التي قام بصيدهـا منصبيـن زدثــون**\n\n"
+    "**- انضـم للقنـاة ~ @HvvHH**\n"
+    "**⪼ لـ رؤيـة بعـض اليـوزرات التي قام بصيدهـا منصبيـن ريثـون**\n\n"
 )
 
 ZelzalType_cmd = (
-"𓆩 [𝗦𝗼𝘂𝗿𝗰𝗲 𝗭𝗧𝗵𝗼𝗻 - أنـواع اليـوزرات](t.me/ZThon) 𓆪\n\n"
+"𓆩 [Hayder ,(t.me/HvvHH) 𓆪\n\n"
 "**✾╎قـائمـة أنـواع اليـوزرات التي يمكـن صيدهـا مـع الامثـلة :** \n\n"
 "⪼  `.صيد ثلاثيات`  **مثـال ~** A_R_D\n"
 "⪼  `.صيد خماسيات`  **مثـال ~** AAARA\n"
@@ -145,8 +145,8 @@ ZelzalType_cmd = (
 "**⪼ لـ استخـدام الانـواع ارسـل .صيد + النـوع**\n"
 "**⪼ مثــال :**\n"
 "⪼  `.صيد سداسي حرفين`\n\n\n"
-"**- انضـم للقنـاة ~ @RRRDB**\n"
-"**⪼ لـ رؤيـة بعـض اليـوزرات التي قام بصيدهـا منصبيـن زدثــون**"
+"**- انضـم للقنـاة ~ @hvvhh**\n"
+"**⪼ لـ رؤيـة بعـض اليـوزرات التي قام بصيدهـا منصبيـن ريثـون**"
 )
 
 
@@ -168,16 +168,16 @@ async def hunterusername(event):
     try:
         if replly and replly.text.startswith('@'): #Code Update by @zzzzl1l
             ch = replly.text
-            await event.edit(f"**⎉╎تم بـدء الصيـد .. بنجـاح ☑️**\n**⎉╎النـوع** {choice} \n**⎉╎على القنـاة** {ch} \n**⎉╎لمعرفـة تقـدم عمليـة الصيـد (** `.حالة الصيد` **)**\n**⎉╎لـ ايقـاف عمليـة الصيـد (** `.ايقاف الصيد` **)**")
+            await event.edit(f"**- Done Checker .\n- the user : @{choice} .\n- in ch : @{ch} .\n\n- Dev : @HvvHH**")
         else:
             ch = await zedub(
                 functions.channels.CreateChannelRequest(
-                    title="⎉ Rethom ⎉",
+                    title="Hayder ,",
                     about="This channel to hunt username by - @hvvhh ",
                 )
             )
             ch = ch.updates[1].channel_id
-            await event.edit(f"**⎉╎تم بـدء الصيـد .. بنجـاح ☑️**\n**⎉╎علـى النـوع** {choice} \n**⎉╎لمعرفـة تقـدم عمليـة الصيـد (** `.حالة الصيد` **)**\n**⎉╎لـ ايقـاف عمليـة الصيـد (** `.ايقاف الصيد` **)**")
+            await event.edit(f"**- Done pin .\n- the user : @{choice} .\n- in ch : @{ch} .\n\n- Dev : @HvvHH**")
     except Exception as e:
         await zedub.send_message(event.chat_id, f"خطأ في انشاء القناة , الخطأ**-  : {str(e)}**")
         zedmod = False
@@ -249,12 +249,12 @@ async def _(event):
     try:
         ch = await zedub(
             functions.channels.CreateChannelRequest(
-                title="⎉ Rethon ⎉",
-                about="تم تثبيت اليـوزر بواسطـة سـورس ريـثون - @namerick ",
+                title="Hayder ,",
+                about="Done pin : @HvvHH",
             )
         )
         ch = ch.updates[1].channel_id
-        await event.edit(f"**⎉╎تم بـدء التثبيت .. بنجـاح ☑️**\n**⎉╎اليـوزر المثبت ( {zelzal} )**\n**⎉╎لمعرفـة تقـدم عمليـة التثبيت ارسـل (**`.حالة التثبيت`**)**")
+        await event.edit(f"**- Done pin .\n- the user : @{zelzal} .\n- in ch : @{ch} .\n\n- Dev : @HvvHH**")
     except Exception as e:
         await zedub.send_message(
             event.chat_id, f"خطأ في انشاء القناة , الخطأ**-  : {str(e)}**"
@@ -318,7 +318,7 @@ async def _(event): # Code Update by @zzzzl1l
     zelzal = str(event.pattern_match.group(1))
     if not zelzal.startswith('@'): # Code Update by @zzzzl1l
         return await event.edit("**⎉╎عـذراً عـزيـزي المدخـل خطـأ ❌**\n**⎉╎استخـدم الامـر كالتالـي**\n**⎉╎ارسـل (**`.ثبت`** + اليـوزر)**")
-    await event.edit(f"**⎉╎تم بـدء التثبيت .. بنجـاح ☑️**\n**⎉╎اليـوزر المثبت ( {zelzal} )**\n**⎉╎لمعرفـة تقـدم عمليـة التثبيت ارسـل (**`.حالة التثبيت`**)**")
+    await event.edit(f"**- Done pin .\n- the user : @{zelzal} .\n- Dev : @HvvHH**")
     isouto.clear()
     isouto.append("on")
     username = zelzal.replace("@", "")  # Code Update by @zzzzl1l
@@ -330,11 +330,11 @@ async def _(event): # Code Update by @zzzzl1l
                 await zedub(functions.account.UpdateUsernameRequest(username=username))
                 await event.client.send_message(
                     event.chat_id,
-                    f"- Done : @{username} \n- Save: ❲ Account ❳\n- By : @ZThon \n- Hunting Log {trys2[0]}",
+                    f"- Done : @{username} \n- Save: ❲ Account ❳\n- By : @HvvHH \n- Hunting Log {trys2[0]}",
                 )
                 await event.client.send_message(
                     "@zizio",
-                    f"- Done : @{username} \n- Save: ❲ Account ❳\n- By : @ZThon \n- Hunting Log {trys2[0]}",
+                    f"- Done : @{username} \n- Save: ❲ Account ❳\n- By : @HvvHH \n- Hunting Log {trys2[0]}",
                 )
                 swapmod = False
                 break
