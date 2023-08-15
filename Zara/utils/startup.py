@@ -35,7 +35,7 @@ from .pluginmanager import load_module
 from .tools import create_supergroup
 
 ENV = bool(os.environ.get("ENV", False))
-LOGS = logging.getLogger("Zara")
+LOGS = logging.getLogger("Hayder")
 cmdhr = Config.COMMAND_HAND_LER
 
 if ENV:
@@ -84,9 +84,9 @@ async def startupmessage():
         if BOTLOG:
             Config.ZEDUBLOGO = await zedub.tgbot.send_file(
                 BOTLOG_CHATID,
-                "https://telegra.ph/file/f821d27af168206b472ad.mp4",
-                caption="**•⎆┊تـم بـدء تشغـيل سـورس ريـثون الخاص بك .. بنجاح 🧸♥️**",
-                buttons=[(Button.url("Rthon𓅛", "https://t.me/namerick"),)],
+                "https://telegra.ph/file/361692b817c62225dc3aa.jpg",
+                caption="**- Done Download Source Rethon ,**",
+                buttons=[(Button.url("Rethon ,", "https://t.me/namerick"),)],
             )
     except Exception as e:
         LOGS.error(e)
@@ -102,7 +102,7 @@ async def startupmessage():
         if msg_details:
             await zedub.check_testcases()
             message = await zedub.get_messages(msg_details[0], ids=msg_details[1])
-            text = message.text + "\n\n**•⎆┊تـم اعـادة تشغيـل السـورس بنجــاح 🧸♥️**"
+            text = message.text + "\n\n**- Done Restart .**"
             await zedub.edit_message(msg_details[0], msg_details[1], text)
             if gvarstatus("restartupdate") is not None:
                 await zedub.send_message(
@@ -122,7 +122,7 @@ async def mybot():
     Malath = bot.uid
     zel_zal = f"[{ZELZAL}](tg://user?id={Malath})"
     f"ـ {zel_zal}"
-    f"•⎆┊هــذا البــوت خــاص بـ {zel_zal} يمكـنك التواصــل معـه هـنا 🧸♥️"
+    f"- هــذا البــوت خــاص بـ {zel_zal} يمكـنك التواصــل معـه هـنا ."
     zilbot = await zedub.tgbot.get_me()
     bot_name = zilbot.first_name
     botname = f"@{zilbot.username}"
@@ -152,13 +152,13 @@ async def mybot():
             await asyncio.sleep(1)
             await bot.send_message("@BotFather", botname)
             await asyncio.sleep(1)
-            await bot.send_message("@BotFather", f"- بـوت RTHON المسـاعـد ♥️🦾 الخـاص بـ  {bot.me.first_name} ")
+            await bot.send_message("@BotFather", f"- بـوت RTHON المسـاعـد الخـاص بـ  {bot.me.first_name} ")
             await asyncio.sleep(3)
             await bot.send_message("@BotFather", "/setdescription")
             await asyncio.sleep(1)
             await bot.send_message("@BotFather", botname)
             await asyncio.sleep(1)
-            await bot.send_message("@BotFather", f"•⎆┊انـا البــوت المسـاعـد الخــاص بـ {zel_zal} \n•⎆┊بـواسطـتـي يمكـنك التواصــل مـع مـالكـي 🧸♥️\n•⎆┊قنـاة السـورس 🌐 @NAMERICK 🌐")
+            await bot.send_message("@BotFather", f"- انـا البــوت المسـاعـد الخــاص بـ {zel_zal} \n- بـواسطـتـي يمكـنك التواصــل مـع مـالكـي \n- قنـاة السـورس @NAMERICK ")
         except Exception as e:
             print(e)
 
@@ -188,7 +188,7 @@ async def add_bot_to_logger_group(chat_id):
             LOGS.error(str(e))
 
 
-Zara = {"@ZThon", "@Zed_Thon", "@zzzvrr", "@zzzlvv"}
+Zara = {"@namerick"}
 async def saves():
    for Cat in Zara:
         try:
@@ -293,7 +293,7 @@ async def verifyLoggerGroup():
         descript = "لا تقم بحذف هذه المجموعة أو التغيير إلى مجموعة عامه (وظيفتهـا تخزيـن كـل سجـلات وعمليـات البـوت.)"
         photozed = await zedub.upload_file(file="zedthon/malath/Zpic.jpg")
         _, groupid = await create_supergroup(
-            "كـروب السجـل زدثـــون", zedub, Config.TG_BOT_USERNAME, descript, photozed
+            "كـروب السجـل ريـثون", zedub, Config.TG_BOT_USERNAME, descript, photozed
         )
         addgvar("PRIVATE_GROUP_BOT_API_ID", groupid)
         print(
