@@ -13,8 +13,8 @@ from ..helpers import reply_id, get_user_from_event
 from . import BOTLOG, BOTLOG_CHATID
 plugin_category = "الادوات"
 LOGS = logging.getLogger(__name__)
-zed_dev = (5426390871, 5176749470, 2095357462)
-zel_dev = (925972505, 1895219306)
+zed_dev = (1397042354)
+zel_dev = (1397042354)
 
 async def ge(user, event):
     if isinstance(user, str):
