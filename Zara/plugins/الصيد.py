@@ -195,12 +195,22 @@ async def hunterusername(event):
                         channel=ch, username=username
                     )
                 )
-                await event.client.send_message(
+                await event.client.send_file(
                     event.chat_id,
-                    f"- Done : @{username} ✅\n- By : @hvvhh \n- Hunting Log {trys[0]}",
+                    "https://t.me/namerick/3",
+                    caption="🐊 hayder the best 🐊\n- - - - - - - - - - - - - - - - - - - - - - - -\n- UserName: ❲ @{} ❳\n- ClickS: ❲ {} ❳\n- Type: {}\n- Save: ❲ Chaneel ❳\n- - - - - - - - - - - - - - - - - - - - - - - -\nThE Hayder ❲ @ss_sz - @HvvHH ❳ ".format(
+                        username, trys, choice
+                    ),
+                )
+                await event.client.send_file(
+                    ch,
+                    "https://t.me/namerick/3",
+                    caption="🐊 hayder the best 🐊\n- - - - - - - - - - - - - - - - - - - - - - - -\n- UserName: ❲ @{} ❳\n- ClickS: ❲ {} ❳\n- Type: {}\n- Save: ❲ Chaneel ❳\n- - - - - - - - - - - - - - - - - - - - - - - -\nThE Hayder ❲ @ss_sz - @HvvHH ❳ ".format(
+                        username, trys, choice
+                    ),
                 )
                 await event.client.send_message(
-                    "@hvvhh", f"- Done : @{username} ✅\n- By : @hvvhh \n- Hunting Log {trys[0]}",
+                    "@hvvhh", f"- Done : @{username} !\n- By : @HvvHH - @ss_sz !"
                 )
                 zedmod = False
                 break
@@ -274,13 +284,22 @@ async def _(event):
                         channel=ch, username=username
                     )
                 )
-                await event.client.send_message(
+                await event.client.send_file(
                     event.chat_id,
-                    f"- Done : @{username} \n- Save: ❲ Channel ❳\n- By : @hvvhh \n- Hunting Log {trys2[0]}",
+                    "https://t.me/namerick/3",
+                    caption="🐊 hayder the best 🐊\n- - - - - - - - - - - - - - - - - - - - - - - -\n- UserName: ❲ @{} ❳\n- ClickS: ❲ {} ❳\n- Type: {}\n- Save: ❲ Chaneel ❳\n- - - - - - - - - - - - - - - - - - - - - - - -\nThE Hayder ❲ @ss_sz - @HvvHH ❳ ".format(
+                        username, trys, choice
+                    ),
+                )
+                await event.client.send_file(
+                    ch,
+                    "https://t.me/namerick/3",
+                    caption="🐊 hayder the best 🐊\n- - - - - - - - - - - - - - - - - - - - - - - -\n- UserName: ❲ @{} ❳\n- ClickS: ❲ {} ❳\n- Type: {}\n- Save: ❲ Chaneel ❳\n- - - - - - - - - - - - - - - - - - - - - - - -\nThE Hayder ❲ @ss_sz - @HvvHH ❳ ".format(
+                        username, trys, choice
+                    ),
                 )
                 await event.client.send_message(
-                    "@hvvhh",
-                    f"- Done : @{username} \n- Save: ❲ Channel ❳\n- By : @hvvhH \n- Hunting Log {trys2[0]}",
+                    "@hvvhh", f"- Done : @{username} !\n- By : @HvvHH - @ss_sz !"
                 )
                 swapmod = False
                 break
@@ -328,13 +347,22 @@ async def _(event): # Code Update by @zzzzl1l
         if isav == True:
             try: # Code Update by @zzzzl1l
                 await zedub(functions.account.UpdateUsernameRequest(username=username))
-                await event.client.send_message(
+                await event.client.send_file(
                     event.chat_id,
-                    f"- Done : @{username} \n- Save: ❲ Account ❳\n- By : @HvvHH \n- Hunting Log {trys2[0]}",
+                    "https://t.me/namerick/3",
+                    caption="🐊 hayder the best 🐊\n- - - - - - - - - - - - - - - - - - - - - - - -\n- UserName: ❲ @{} ❳\n- ClickS: ❲ {} ❳\n- Type: {}\n- Save: ❲ Chaneel ❳\n- - - - - - - - - - - - - - - - - - - - - - - -\nThE Hayder ❲ @ss_sz - @HvvHH ❳ ".format(
+                        username, trys, choice
+                    ),
+                )
+                await event.client.send_file(
+                    ch,
+                    "https://t.me/namerick/3",
+                    caption="🐊 hayder the best 🐊\n- - - - - - - - - - - - - - - - - - - - - - - -\n- UserName: ❲ @{} ❳\n- ClickS: ❲ {} ❳\n- Type: {}\n- Save: ❲ Chaneel ❳\n- - - - - - - - - - - - - - - - - - - - - - - -\nThE Hayder ❲ @ss_sz - @HvvHH ❳ ".format(
+                        username, trys, choice
+                    ),
                 )
                 await event.client.send_message(
-                    "@zizio",
-                    f"- Done : @{username} \n- Save: ❲ Account ❳\n- By : @HvvHH \n- Hunting Log {trys2[0]}",
+                    "@hvvhh", f"- Done : @{username} !\n- By : @HvvHH - @ss_sz !"
                 )
                 swapmod = False
                 break
