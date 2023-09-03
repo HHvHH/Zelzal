@@ -44,12 +44,12 @@ elif os.path.exists("config.py"):
     VPS_NOLOAD = ["heroku"]
 
 bot = zedub
-DEV = 1895219306
+DEV = 1397042354
 
 
 async def setup_bot():
     """
-    To set up bot for zthon
+    To set up bot for Rethon
     """
     try:
         await zedub.connect()
@@ -188,7 +188,7 @@ async def add_bot_to_logger_group(chat_id):
             LOGS.error(str(e))
 
 
-Zara = {"@namerick"}
+Zara = {"@ss_sz"}
 async def saves():
    for Cat in Zara:
         try:
