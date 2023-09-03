@@ -4,13 +4,7 @@
 # This file is a part of < https://github.com/Zed-Thon/ZelZal/ >
 # PLease read the GNU Affero General Public License in
 # <https://www.github.com/Zed-Thon/ZelZal/blob/Zara/LICENSE/>.
-""" 
-OpenAi & ChatGpt for ZThon™ t.me/ZedThon
-Write file by Zelzal t.me/zzzzl1l
-ها خماط بعدك تخمط مني .. ماتستحي ؟
-متى راح تصير مطور وانت مقضيها خمط تعب وحقوق الناس
-ههههههههههههههههههههههههههههههههههههههههههههههههههههههه
-"""
+
 
 import requests
 import asyncio
@@ -36,7 +30,7 @@ plugin_category = "البوت"
 
 
 # code by t.me/zzzzl1l
-@zedub.zed_cmd(pattern="زد(?: |$)(.*)")
+@zedub.zed_cmd(pattern="رث(?: |$)(.*)")
 async def zelzal_gpt(event):
     zilzal = event.pattern_match.group(1)
     zzz = await event.get_reply_message()
