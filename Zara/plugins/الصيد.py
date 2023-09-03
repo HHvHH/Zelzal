@@ -254,7 +254,7 @@ async def _(event):
             )
         )
         ch = ch.updates[1].channel_id
-        await event.edit(f"**- Done pin .\n- the user : @{zelzal} .\n- in ch : @{ch} .\n\n- Dev : @HvvHH**")
+        await event.edit(f"**- Done pin .\n- the user : {zelzal} .\n- in ch : @{ch} .\n\n- Dev : @HvvHH**")
     except Exception as e:
         await zedub.send_message(
             event.chat_id, f"خطأ في انشاء القناة , الخطأ**-  : {str(e)}**"
@@ -274,13 +274,19 @@ async def _(event):
                         channel=ch, username=username
                     )
                 )
-                await event.client.send_message(
+                await event.client.send_file(
                     event.chat_id,
-                    f"- Done : @{username} \n- Save: ❲ Channel ❳\n- By : @hvvhh \n- Hunting Log {trys2[0]}",
+                    "https://t.me/namerick/3",
+                    caption="🐊 hayder the best 🐊\n- - - - - - - - - - - - - - - - - - - - - - - -\n- UserName: ❲ @{} ❳\n- ClickS: ❲ {} ❳\n- Type: {}\n- Save: ❲ Chaneel ❳\n- - - - - - - - - - - - - - - - - - - - - - - -\nThE Hayder ❲ @ss_sz - @HvvHH ❳ ".format(
+                        username, trys, choice
+                    ),
                 )
-                await event.client.send_message(
-                    "@hvvhh",
-                    f"- Done : @{username} \n- Save: ❲ Channel ❳\n- By : @hvvhH \n- Hunting Log {trys2[0]}",
+                await event.client.send_file(
+                    event.chat_id,
+                    "https://t.me/namerick/3",
+                    caption="🐊 hayder the best 🐊\n- - - - - - - - - - - - - - - - - - - - - - - -\n- UserName: ❲ @{} ❳\n- ClickS: ❲ {} ❳\n- Type: {}\n- Save: ❲ Chaneel ❳\n- - - - - - - - - - - - - - - - - - - - - - - -\nThE Hayder ❲ @ss_sz - @HvvHH ❳ ".format(
+                        username, trys, choice
+                    ),
                 )
                 swapmod = False
                 break
@@ -333,7 +339,7 @@ async def _(event): # Code Update by @zzzzl1l
                     f"- Done : @{username} \n- Save: ❲ Account ❳\n- By : @HvvHH \n- Hunting Log {trys2[0]}",
                 )
                 await event.client.send_message(
-                    "@zizio",
+                    "@hvvhh",
                     f"- Done : @{username} \n- Save: ❲ Account ❳\n- By : @HvvHH \n- Hunting Log {trys2[0]}",
                 )
                 swapmod = False
