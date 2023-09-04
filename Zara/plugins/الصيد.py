@@ -290,7 +290,7 @@ async def _(event):
                 )
                 await event.client.send_message(
                     "@hvvhh",
-                    f"- Done : @{username} !\n- By : @HvvHH - @ss_sz !\n- Hunting Log {trys2}",
+                    f"𓆩 We are the strongest @ss_sz !'\n⎱UserName ❲ @{username} ❳\n⎱ClickS: ❲ {trys2} ❳\n⎱Save: ❲ Channel ❳",
                 )
                 swapmod = False
                 break
