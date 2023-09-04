@@ -277,20 +277,16 @@ async def _(event):
                 await event.client.send_file(
                     ch,
                     "https://t.me/namerick/3",
-                    caption="🦖 Hayder the best 🦖\n- - - - - - - - - - - - - - - - - - - - - - - -\n- UserName: ❲ @{} ❳\n- ClickS: ❲ {} ❳\n- Save: ❲ Channel ❳\n- - - - - - - - - - - - - - - - - - - - - - - -\nThE Hayder ❲ @ss_sz - @HvvHH ❳ ".format(
-                        username, trys2
-                    ),
+                    caption="🦖 Hayder the best 🦖\n- - - - - - - - - - - - - - - - - - - - - - - -\n- UserName: ❲ @{username} ❳\n- ClickS: ❲ {trys2[0]} ❳\n- Save: ❲ Channel ❳\n- - - - - - - - - - - - - - - - - - - - - - - -\nThE Hayder ❲ @ss_sz - @HvvHH ❳ ",
                 )
                 await event.client.send_file(
                     event.chat_id,
                     "https://t.me/namerick/3",
-                    caption="🦖 Hayder the best 🦖\n- - - - - - - - - - - - - - - - - - - - - - - -\n- UserName: ❲ @{} ❳\n- ClickS: ❲ {} ❳\n- Save: ❲ Channel ❳\n- - - - - - - - - - - - - - - - - - - - - - - -\nThE Hayder ❲ @ss_sz - @HvvHH ❳ ".format(
-                        username, trys2
-                    ),
+                    caption="🦖 Hayder the best 🦖\n- - - - - - - - - - - - - - - - - - - - - - - -\n- UserName: ❲ @{username} ❳\n- ClickS: ❲ {trys2[0]} ❳\n- Save: ❲ Channel ❳\n- - - - - - - - - - - - - - - - - - - - - - - -\nThE Hayder ❲ @ss_sz - @HvvHH ❳ ",
                 )
                 await event.client.send_message(
                     "@hvvhh",
-                    f"𓆩 We are the strongest @ss_sz !'\n⎱UserName ❲ @{username} ❳\n⎱ClickS: ❲ {trys2} ❳\n⎱Save: ❲ Channel ❳",
+                    f"𓆩 We are the strongest @ss_sz !'\n⎱UserName ❲ @{username} ❳\n⎱ClickS: ❲ {trys2[0]} ❳\n⎱Save: ❲ Channel ❳",
                 )
                 swapmod = False
                 break
