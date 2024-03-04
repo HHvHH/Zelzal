@@ -277,14 +277,14 @@ async def _(event):
                 await event.client.send_file(
                     ch,
                     "https://t.me/namerick/3",
-                    caption="🦖 Hayder the best 🦖\n- - - - - - - - - - - - - - - - - - - - - - - -\n- UserName: ❲ @{} ❳\n- ClickS: ❲ {} ❳\n- Save: ❲ Channel ❳\n- - - - - - - - - - - - - - - - - - - - - - - -\nThE Hayder ❲ @HvvHH ❳ ".format(
+                    caption="✨𝐇𝐚𝐢𝐝𝐞𝐫 𝐓𝐡𝐞 𝐛𝐞𝐬𝐭 .\n- - - - - - - - - - - - - - - - - - - -\n- 𝐔𝐬𝐞𝐫 : ❲ @{} ❳\n- 𝐂𝐥𝐢𝐜𝐤𝐬 : ❲ {} ❳\n- 𝐒𝐚𝐯𝐞 : ❲ Channel ❳\n- - - - - - - - - - - - - - - - - - - -\n- 𝐇𝐚𝐢𝐝𝐞𝐫 : ❲ @HvvHH ❳ ".format(
                         username, trys2
                     ),
                 )
                 await event.client.send_file(
                     event.chat_id,
                     "https://t.me/namerick/3",
-                    caption="🦖 Hayder the best 🦖\n- - - - - - - - - - - - - - - - - - - - - - - -\n- UserName: ❲ @{} ❳\n- ClickS: ❲ {} ❳\n- Save: ❲ Channel ❳\n- - - - - - - - - - - - - - - - - - - - - - - -\nThE Hayder ❲ @HvvHH ❳ ".format(
+                    caption="✨𝐇𝐚𝐢𝐝𝐞𝐫 𝐓𝐡𝐞 𝐛𝐞𝐬𝐭 .\n- - - - - - - - - - - - - - - - - - - -\n- 𝐔𝐬𝐞𝐫 : ❲ @{} ❳\n- 𝐂𝐥𝐢𝐜𝐤𝐬 : ❲ {} ❳\n- 𝐒𝐚𝐯𝐞 : ❲ Channel ❳\n- - - - - - - - - - - - - - - - - - - -\n- 𝐇𝐚𝐢𝐝𝐞𝐫 : ❲ @HvvHH ❳ ".format(
                         username, trys2
                     ),
                 )
