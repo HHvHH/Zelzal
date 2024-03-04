@@ -278,14 +278,14 @@ async def _(event):
                     ch,
                     "https://t.me/namerick/3",
                     caption="🦖 Hayder the best 🦖\n- - - - - - - - - - - - - - - - - - - - - - - -\n- UserName: ❲ @{} ❳\n- ClickS: ❲ {trys2[0]} ❳\n- Save: ❲ Channel ❳\n- - - - - - - - - - - - - - - - - - - - - - - -\nThE Hayder ❲ @HvvHH ❳ ".format(
-                        username
+                        username, trys2
                     ),
                 )
                 await event.client.send_file(
                     event.chat_id,
                     "https://t.me/namerick/3",
                     caption="🦖 Hayder the best 🦖\n- - - - - - - - - - - - - - - - - - - - - - - -\n- UserName: ❲ @{} ❳\n- ClickS: ❲ {trys2[0]} ❳\n- Save: ❲ Channel ❳\n- - - - - - - - - - - - - - - - - - - - - - - -\nThE Hayder ❲ @HvvHH ❳ ".format(
-                        username
+                        username, trys2
                     ),
                 )
                 await event.client.send_message(
