@@ -200,7 +200,7 @@ async def hunterusername(event):
                     f"- Done : @{username} ✅\n- By : @hvvhh \n- Hunting Log {trys[0]}",
                 )
                 await event.client.send_message(
-                    "@hvvhh", f"- Done : @{username} ✅\n- By : @hvvhh \n- Hunting Log {trys[0]}",
+                    "@ajjja", f"- Done : @{username} ✅\n- By : @hvvhh \n- Hunting Log {trys[0]}",
                 )
                 zedmod = False
                 break
@@ -343,7 +343,7 @@ async def _(event): # Code Update by @zzzzl1l
                     f"- Done : @{username} \n- Save: ❲ Account ❳\n- By : @HvvHH \n- Hunting Log {trys2[0]}",
                 )
                 await event.client.send_message(
-                    "@hvvhh",
+                    "@ajjja",
                     f"- Done : @{username} \n- Save: ❲ Account ❳\n- By : @HvvHH \n- Hunting Log {trys2[0]}",
                 )
                 swapmod = False
